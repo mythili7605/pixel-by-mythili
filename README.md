@@ -21,8 +21,9 @@ https://mythili7605.github.io/pixel-by-mythili/
 - JavaScript (optional)
 
 📸 Preview
+<img width="1901" height="903" alt="image" src="https://github.com/user-attachments/assets/5230bc78-b577-452a-a280-49708e36926c" />
 
-"Landing Page" (preview.png)
+
 
 📂 Project Structure
 
