@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelByMythili | Creative Photography & Web Experiences</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Designing Pixels. Crafting Experiences. Welcome to Mythili's creative photography & web experience portfolio showcasing high-performance web experiences and stunning photography.">
+  <meta name="keywords" content="photography, portfolio, web design, creative studio, pixelbymythili, Mythili, portrait photography, wedding photography, commercial photography">
+  <meta name="author" content="Mythili">
+  
+  <!-- FontAwesome for Premium Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div class="custom-cursor" id="ui-custom-cursor"></div>
+  <div class="custom-cursor-dot" id="ui-custom-cursor-dot"></div>
+
+  <!-- Animated Blob Background -->
+  <div class="blob-container">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header>
+    <a href="#" class="logo" id="nav-logo">
+      PixelBy<span>Mythili</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#" id="link-home">Home</a></li>
+      <li><a href="#services" id="link-services">Services</a></li>
+      <li><a href="#gallery" id="link-gallery">Work</a></li>
+      <li><a href="#testimonials" id="link-testimonials">Reviews</a></li>
+      <li><a href="#contact" id="link-contact">Contact</a></li>
+    </ul>
+    <div class="header-socials">
+      <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Instagram" id="hdr-social-ig">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://behance.net" target="_blank" class="social-icon" aria-label="Behance" id="hdr-social-bh">
+        <i class="fab fa-behance"></i>
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn" id="hdr-social-li">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <!-- Floating Badges -->
+    <div class="floating-badge badge-1">
+      <span class="badge-icon">🏆</span>
+      <div class="badge-text">
+        <h4>Designing Pixels</h4>
+        <p>Crafting Experiences</p>
+      </div>
+    </div>
+    
+    <div class="floating-badge badge-2">
+      <span class="badge-icon">📸</span>
+      <div class="badge-text">
+        <h4>10k+ Captures</h4>
+        <p>Delivered Worldwide</p>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <span class="hero-tag reveal">Designing Pixels. Crafting Experiences.</span>
+      <h1 class="reveal">
+        Designing Pixels.<br>
+        <span class="gradient-text">Building Experience.</span>
+      </h1>
+      <p class="subheading reveal">
+        Crafting modern web experiences where design meets performance. Beautiful captures, seamless layouts, outstanding performance.
+      </p>
+      <div class="cta-group reveal">
+        <a href="#gallery" class="btn btn-primary" id="hero-cta-explore">
+          Explore Projects <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn btn-secondary" id="hero-cta-contact">
+          Let's Collaborate
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll Down mouse indicator -->
+    <div class="scroll-down">
+      <span>Scroll</span>
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="stats-bar" id="stats">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="150" data-suffix="+">0</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="10000" data-suffix="+">0</span>
+        <span class="stat-label">Photos Delivered</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="5" data-suffix="+ Years">0</span>
+        <span class="stat-label">Creative Experience</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="99.9" data-suffix="%">0</span>
+        <span class="stat-label">Satisfaction Rate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="section-header reveal">
+      <span class="tag">What I Do</span>
+      <h2>Tailored Creative Services</h2>
+      <p>Whether you need professional visual storytelling or a sleek high-speed web showcase, I have you covered.</p>
+    </div>
+
+    <div class="services-grid">
+      <!-- Portrait Card -->
+      <div class="service-card reveal-left">
+        <div class="service-icon">👤</div>
+        <h3>Portrait Package</h3>
+        <div class="service-price">$250 <span>/ session</span></div>
+        <ul class="service-features">
+          <li>2 Hour Custom Studio/Outdoor session</li>
+          <li>20 Fully Retouched High-res photos</li>
+          <li>Private Interactive Online Gallery</li>
+          <li>Print release license</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary" id="btn-service-portrait">Book Portrait</a>
+      </div>
+
+      <!-- Wedding Card (POPULAR) -->
+      <div class="service-card popular reveal">
+        <span class="popular-badge">Popular</span>
+        <div class="service-icon">💍</div>
+        <h3>Wedding Showcase</h3>
+        <div class="service-price">$1,500 <span>/ event</span></div>
+        <ul class="service-features">
+          <li>Full Day Coverage (up to 10 hours)</li>
+          <li>Second Professional Photographer</li>
+          <li>250+ Artistically Edited Photos</li>
+          <li>Elegant Handcrafted Wooden USB Box</li>
+          <li>Complimentary Pre-Wedding Session</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary" id="btn-service-wedding">Book Wedding</a>
+      </div>
+
+      <!-- Commercial Card -->
+      <div class="service-card reveal-right">
+        <div class="service-icon">💼</div>
+        <h3>Commercial / Brand</h3>
+        <div class="service-price">$800 <span>/ project</span></div>
+        <ul class="service-features">
+          <li>Creative Director/Product styling</li>
+          <li>50 Commercial-ready Product shots</li>
+          <li>Full Commercial Usage License</li>
+          <li>Web Optimization assets included</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary" id="btn-service-commercial">Book Commercial</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Showcase Section -->
+  <section class="gallery-section" id="gallery">
+    <div class="section-header reveal">
+      <span class="tag">Portfolio</span>
+      <h2>Visual Gallery Strip</h2>
+      <p>Drag or swipe to explore moments captured in pixels. Interactive, immersive, and styled to perfection.</p>
+    </div>
+
+    <div class="gallery-container" id="work-gallery">
+      <!-- Item 1: Portrait -->
+      <div class="gallery-item reveal">
+        <img src="images/portrait.png" alt="Creative Portrait Shot">
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Portrait</span>
+          <h3 class="gallery-title">Elegance in Frame</h3>
+          <p class="gallery-desc">Artistic portrait photography exploring character and soft golden-hour tones.</p>
+        </div>
+      </div>
+
+      <!-- Item 2: Wedding -->
+      <div class="gallery-item reveal">
+        <img src="images/wedding.png" alt="Wedding Photography">
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Wedding</span>
+          <h3 class="gallery-title">Timeless Promises</h3>
+          <p class="gallery-desc">Capturing deep laughter, cinematic glances, and romantic atmospheres.</p>
+        </div>
+      </div>
+
+      <!-- Item 3: Commercial Watch (Unsplash) -->
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop" alt="Commercial Watch Styling">
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Commercial</span>
+          <h3 class="gallery-title">Luxury Precision</h3>
+          <p class="gallery-desc">Editorial style product lighting showcasing minimalist watch aesthetics.</p>
+        </div>
+      </div>
+
+      <!-- Item 4: Conceptual Light (Unsplash) -->
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1200&auto=format&fit=crop" alt="Creative Lighting Conceptual">
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Conceptual</span>
+          <h3 class="gallery-title">Neon Reverie</h3>
+          <p class="gallery-desc">Art direction combining vivid hues, high contrast, and dream-like scenarios.</p>
+        </div>
+      </div>
+
+      <!-- Item 5: Architectural Light (Unsplash) -->
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop" alt="Minimalist Space">
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Interior & Design</span>
+          <h3 class="gallery-title">Shadow & Space</h3>
+          <p class="gallery-desc">Architectural lines blending with ambient light and minimalist details.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons for Gallery Scroll -->
+    <div class="gallery-nav">
+      <button class="gallery-btn prev" aria-label="Previous Project" id="btn-gallery-prev">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <button class="gallery-btn next" aria-label="Next Project" id="btn-gallery-next">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- Testimonials Section (Recreated from screenshot references) -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-header reveal">
+      <span class="tag">Social Proof</span>
+      <h2>Testimonials</h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <!-- Hailey Frank Card -->
+      <div class="testimonial-card reveal">
+        <div class="card-image-wrapper">
+          <img src="images/hailey.png" alt="Hailey Frank">
+          <!-- Smooth curved SVG wave divider -->
+          <svg class="card-wave" viewBox="0 0 1440 200" preserveAspectRatio="none">
+            <path d="M0,80 C360,150 720,10 1080,120 C1260,160 1380,80 1440,60 L1440,200 L0,200 Z"></path>
+          </svg>
+        </div>
+        <div class="card-content">
+          <h3>Hailey Frank</h3>
+          <span class="role">Marketing Specialist</span>
+          <div class="stars">★★★★★</div>
+          <p class="text">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+          </p>
+        </div>
+      </div>
+
+      <!-- John Doe Card -->
+      <div class="testimonial-card reveal">
+        <div class="card-image-wrapper">
+          <img src="images/john.png" alt="John Doe">
+          <!-- Same smooth wave divider -->
+          <svg class="card-wave" viewBox="0 0 1440 200" preserveAspectRatio="none">
+            <path d="M0,80 C360,150 720,10 1080,120 C1260,160 1380,80 1440,60 L1440,200 L0,200 Z"></path>
+          </svg>
+        </div>
+        <div class="card-content">
+          <h3>John Doe</h3>
+          <span class="role">Web Developer</span>
+          <div class="stars">★★★★★</div>
+          <p class="text">
+            Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat vulputate. Ut vulputate est non quem dignissim elementum. Donec a ullamcorper diam.
+          </p>
+        </div>
+      </div>
+
+      <!-- Lisa Trey Card -->
+      <div class="testimonial-card reveal">
+        <div class="card-image-wrapper">
+          <img src="images/lisa.png" alt="Lisa Trey">
+          <!-- Same smooth wave divider -->
+          <svg class="card-wave" viewBox="0 0 1440 200" preserveAspectRatio="none">
+            <path d="M0,80 C360,150 720,10 1080,120 C1260,160 1380,80 1440,60 L1440,200 L0,200 Z"></path>
+          </svg>
+        </div>
+        <div class="card-content">
+          <h3>Lisa Trey</h3>
+          <span class="role">Public Relations</span>
+          <div class="stars">★★★★<span class="empty">★</span></div>
+          <p class="text">
+            Enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi quis nostrum minima.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagination dots recreating the screenshot status indicators -->
+    <div class="pagination-dots">
+      <div class="dot" id="dot-1"></div>
+      <div class="dot" id="dot-2"></div>
+      <div class="dot" id="dot-3"></div>
+      <div class="dot active" id="dot-4"></div> <!-- 4th dot is active by default as in screenshot -->
+    </div>
+  </section>
+
+  <!-- Contact CTA Section -->
+  <section class="contact" id="contact">
+    <div class="contact-box reveal">
+      <h2>Let's build something <br><span class="gradient-text">extraordinary together.</span></h2>
+      <p>Have an upcoming campaign, a wedding to document, or want to build a stunning high-performance website? Let's connect.</p>
+      
+      <div class="email-button-wrapper">
+        <button class="email-btn" id="copy-email-btn" data-email="hello@pixelbymythili.com">
+          hello@pixelbymythili.com <i class="far fa-copy copy-icon"></i>
+        </button>
+        <span class="tooltip" id="copy-tooltip">Copied to clipboard!</span>
+      </div>
+
+      <div class="hero-socials" style="justify-content: center; display: flex; gap: 1.5rem; margin-top: 1rem;">
+        <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Instagram" id="ctct-social-ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://behance.net" target="_blank" class="social-icon" aria-label="Behance" id="ctct-social-bh">
+          <i class="fab fa-behance"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn" id="ctct-social-li">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-logo">
+        PixelBy<span style="color: var(--accent-cyan)">Mythili</span>
+      </div>
+      <ul class="footer-nav">
+        <li><a href="#" id="ftr-link-home">Home</a></li>
+        <li><a href="#services" id="ftr-link-services">Services</a></li>
+        <li><a href="#gallery" id="ftr-link-gallery">Work</a></li>
+        <li><a href="#testimonials" id="ftr-link-testimonials">Reviews</a></li>
+        <li><a href="#contact" id="ftr-link-contact">Contact</a></li>
+      </ul>
+      <div class="footer-socials">
+        <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Instagram" id="ftr-social-ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://behance.net" target="_blank" class="social-icon" aria-label="Behance" id="ftr-social-bh">
+          <i class="fab fa-behance"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn" id="ftr-social-li">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 PixelByMythili. All rights reserved. Crafted for creative performance.</p>
+      <button class="back-to-top" id="back-to-top" aria-label="Back to Top" style="opacity: 0; pointer-events: none;">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Custom Logic Script -->
+  <script src="script.js"></script>
+</body>
+</html>
