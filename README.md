@@ -21,6 +21,8 @@ https://mythili7605.github.io/pixel-by-mythili/
 - JavaScript (optional)
 
 📸 Preview
+<img width="1901" height="890" alt="image" src="https://github.com/user-attachments/assets/9f07ce1f-c88f-4a8c-bab7-c19da73935f0" />
+
 <img width="1901" height="903" alt="image" src="https://github.com/user-attachments/assets/5230bc78-b577-452a-a280-49708e36926c" />
 
 
